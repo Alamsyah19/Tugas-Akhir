@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edt_username" type="id" />
+    <item name="edt_password" type="id" />
+    <item name="btn_login" type="id" />
+    <item name="edt_berat" type="id" />
+    <item name="edt_tinggi" type="id" />
+    <item name="cbVitaminA" type="id" />
+    <item name="cbOralit" type="id" />
+    <item name="tvNamaBalita" type="id" />
+    <item name="tvTotal" type="id" />
+    <item name="tvDetails" type="id" />
+    <item name="et_nik_balita" type="id" />
+    <item name="btn_lihat_perkembangan" type="id" />
+    <item name="chartBB" type="id" />
+    <item name="chartTB" type="id" />
+    <item name="btn_tambah_orangtua" type="id" />
+    <item name="rvOrangtua" type="id" />
+    <item name="tvTitle" type="id" />
+    <item name="fabAdd" type="id" />
+    <item name="layoutPreviewData" type="id" />
+    <item name="tvPreviewHeader" type="id" />
+    <item name="tvTotalBalita" type="id" />
+</resources>

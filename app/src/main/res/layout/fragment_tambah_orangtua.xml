@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- NIK Ayah -->
+        <EditText
+            android:id="@+id/edtNikAyah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIK Ayah"
+            android:inputType="number" />
+
+        <!-- Nama Ayah -->
+        <EditText
+            android:id="@+id/edtNamaAyah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Ayah"
+            android:inputType="textPersonName"
+            android:layout_marginTop="12dp" />
+
+        <!-- Tanggal Lahir Ayah -->
+        <EditText
+            android:id="@+id/edtTglLahirAyah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Lahir Ayah"
+            android:focusable="false"
+            android:inputType="none"
+            android:layout_marginTop="12dp" />
+
+        <!-- NIK Ibu -->
+        <EditText
+            android:id="@+id/edtNikIbu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIK Ibu"
+            android:inputType="number"
+            android:layout_marginTop="12dp" />
+
+        <!-- Nama Ibu -->
+        <EditText
+            android:id="@+id/edtNamaIbu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Ibu"
+            android:inputType="textPersonName"
+            android:layout_marginTop="12dp" />
+
+        <!-- Tanggal Lahir Ibu -->
+        <EditText
+            android:id="@+id/edtTglLahirIbu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Lahir Ibu"
+            android:focusable="false"
+            android:inputType="none"
+            android:layout_marginTop="12dp" />
+
+        <!-- Alamat -->
+        <EditText
+            android:id="@+id/edtAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:inputType="textPostalAddress"
+            android:layout_marginTop="12dp" />
+        <EditText
+            android:id="@+id/edtIbuKb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Ibu KB"/>
+
+        <!-- No HP -->
+        <EditText
+            android:id="@+id/edtNoHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor HP"
+            android:inputType="phone"
+            android:layout_marginTop="12dp" />
+
+        <!-- Tombol Simpan -->
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- NIK -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="NIK Balita"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtNik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIK" />
+
+        <!-- Nama -->
+        <EditText
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Balita"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Tanggal Lahir -->
+        <EditText
+            android:id="@+id/edtTglLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Lahir"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Berat Badan -->
+        <EditText
+            android:id="@+id/edtBeratBadan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Berat Badan Lahir"
+            android:layout_marginTop="8dp"/>
+        <!-- Tinggi Badan-->
+        <EditText
+            android:id="@+id/edtTinggiBadan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tinggi Badan"
+            android:layout_marginTop="8dp"/>
+        <!--Jenis Kelamin-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Jenis Kelamin"/>
+        <Spinner
+            android:id="@+id/spinner_jenis_kelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+
+        <!-- Kelompok Dasawisma -->
+        <EditText
+            android:id="@+id/edtKelompok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kelompok Dasawisma"
+            android:layout_marginTop="8dp"/>
+
+
+        <!-- Tombol Aksi -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginTop="16dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hapus"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Update"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

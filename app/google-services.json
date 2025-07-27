@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400761687690",
+    "project_id": "appta-71ae6",
+    "storage_bucket": "appta-71ae6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400761687690:android:22ae6871277c14b6aee773",
+        "android_client_info": {
+          "package_name": "com.mandiri.appta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA20QgNaXET4_2OOoBmCRXL4CZEzc2gcKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

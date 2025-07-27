@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppTA</string>
+    <string name="title_activity_petugas">PetugasActivity</string>
+    <string name="title_activity_balita">BalitaActivity</string>
+    <string-array name="jenis_kelamin_array">
+        <item>Pilih Jenis Kelamin</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    tools:context=".Petugas.Balita.TambahBalitaFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/edt_nik"
+            android:hint="NIK" android:inputType="number"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/edt_nama"
+            android:hint="Nama Balita"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edt_tgl_lahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Lahir"
+            android:focusable="false"
+            android:inputType="none" />
+
+        <EditText android:id="@+id/edt_berat_badan"
+            android:hint="Berat Badan Lahir (kg)"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/edt_panjang_badan"
+            android:hint="Tinggi Badan(cm)"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:text="Jenis Kelamin"/>
+        <Spinner
+            android:id="@+id/spinner_jenis_kelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/spinnerOrangtua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pilih Orang Tua (Ayah)" />
+
+        <EditText android:id="@+id/edt_kelompok"
+            android:hint="Kelompok Dasawisma"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+
+        <Button android:id="@+id/btn_simpan"
+            android:text="Simpan"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

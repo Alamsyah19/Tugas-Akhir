@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/container">
+
+    <TextView
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Pilih Pelayanan yang diberikan" android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/cbVitaminA"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Vitamin A" />
+
+    <CheckBox
+        android:id="@+id/cbOralit"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Oralit" />
+
+    <Button
+        android:id="@+id/btnLanjut"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Lanjut" android:layout_marginTop="24dp"/>
+</LinearLayout>
